@@ -147,7 +147,7 @@ p.admonition-title:after {
     content: ":";
 }
 
-p.admonition-title + p {
+p.admonition-title + p:not(.last) {
     display: inline;
 }
 
@@ -165,4 +165,14 @@ p.admonition-title {
 .line-block{
   margin: 0 0 11.5px;  
 }
+
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	color : #444;
+	margin-bottom: 10px;
+}
+
 
